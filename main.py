@@ -109,7 +109,7 @@ while iniciar_trivia == True:
   ppregun4 = input(RED+"\nÚltima pregunta:\n¿En que año fue la primera asamblea constituyente en el Perú?\nA)1822\nB)1824\nC)1826\nD)1823\nResponde: ")  
   
   while ppregun4 not in ("a", "b", "c", "d", "x"):
-    print(+"\nRespuesta no válida, solo escribe la letra de la respuesta correcta.")
+    print("\nRespuesta no válida, solo escribe la letra de la respuesta correcta.")
     ppregun3 = input("Responde Correctamente: ")
     
   if ppregun4 == "d":
