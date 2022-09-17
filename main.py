@@ -16,16 +16,14 @@ WHITE = '\033[37m'
 RESET = '\033[39m'
 
 
+nombre=input(YELLOW+ "Bienvenido a la trivia de cultura general \n\nEscribe tu Nombre:")
+
 while iniciar_trivia == True: 
   intentos += 1
   puntaje = random.randint(0, 10)
 
   print(BLACK+"\nIntento número:", intentos)
   input(BLACK+"Presiona Enter para continuar")
-
-  nombre=input(YELLOW+ "Bienvenido a la trivia de cultura general \n\nEscribe tu Nombre:")
-  
-  
   print(YELLOW+"\nhola",nombre, "Midamos que tanto sabes de  cultura.")
   time.sleep (1)
   print(GREEN+"Empezarás con ",puntaje, "puntos, a medida que avances, sumarás o restaras puntos.")
