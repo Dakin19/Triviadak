@@ -110,7 +110,7 @@ while iniciar_trivia == True:
   
   while ppregun4 not in ("a", "b", "c", "d", "x"):
     print("\nRespuesta no válida, solo escribe la letra de la respuesta correcta.")
-    ppregun3 = input("Responde Correctamente: ")
+    ppregun4 = input("Responde Correctamente: ")
     
   if ppregun4 == "d":
     puntaje +=5
